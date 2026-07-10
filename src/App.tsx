@@ -657,16 +657,16 @@ export default function App() {
                 <div className="lg:col-span-7 text-left space-y-6">
                   
                   <span className="inline-flex items-center gap-1.5 text-[11px] font-extrabold uppercase tracking-widest text-emerald-700 bg-emerald-50 border border-emerald-100 px-3.5 py-1.5 rounded-full">
-                    <Sparkles className="h-3.5 w-3.5 text-emerald-600 animate-pulse" />
-                    AI Opportunities. Real Impact.
+                    <Briefcase className="h-3.5 w-3.5 text-emerald-600" />
+                    Premium Opportunities. Real Impact.
                   </span>
                   
                   <h1 className="font-sans text-4xl sm:text-5xl lg:text-6xl font-black text-slate-950 tracking-tight leading-[1.05] !mb-4">
-                    Connecting elite specialists with <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-600 to-blue-600">the future of AI work.</span>
+                    Connecting elite specialists with <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-600 to-blue-600">the future of freelance work.</span>
                   </h1>
                   
                   <p className="text-slate-600 text-sm sm:text-base font-normal max-w-xl leading-relaxed">
-                    Zenire AI coordinates high-fidelity dataset generation, reinforcement learning (RLHF), safety alignment, and multi-step reasoning training for the world's leading generative AI platforms. Earn competitively and work remotely.
+                    Zenire.in connects young professionals, tech leaders, and digital creators with modern organizations for remote contracts, software projects, and flexible careers. Earn competitively and work on your own terms.
                   </p>
 
                   <div className="flex flex-col sm:flex-row gap-4 max-w-md pt-2">
@@ -754,7 +754,7 @@ export default function App() {
                         <line x1="320" y1="100" x2="310" y2="300" stroke="#cbd5e1" strokeWidth="1" />
                       </svg>
 
-                      {/* CENTRAL HUB: Zenire AI Logo */}
+                      {/* CENTRAL HUB: Zenire Logo */}
                       <motion.div 
                         initial={{ scale: 0.8, opacity: 0 }}
                         animate={{ scale: 1, opacity: 1 }}
@@ -782,7 +782,7 @@ export default function App() {
                         </span>
                       </motion.div>
 
-                      {/* SATELLITE NODE 1: RLHF */}
+                      {/* SATELLITE NODE 1: Web Dev */}
                       <motion.div 
                         animate={{ y: [0, -6, 0] }}
                         transition={{ repeat: Infinity, duration: 4, ease: "easeInOut" }}
@@ -792,12 +792,12 @@ export default function App() {
                           <CheckSquare className="h-3.5 w-3.5" />
                         </div>
                         <div className="text-left">
-                          <span className="text-[10px] font-black text-slate-800 block leading-tight">RLHF Training</span>
-                          <span className="text-[8px] text-slate-400 block font-semibold">Quality Tuning</span>
+                          <span className="text-[10px] font-black text-slate-800 block leading-tight">Web Developers</span>
+                          <span className="text-[8px] text-slate-400 block font-semibold">Frontend & UI</span>
                         </div>
                       </motion.div>
 
-                      {/* SATELLITE NODE 2: Code Expert */}
+                      {/* SATELLITE NODE 2: Software Engineers */}
                       <motion.div 
                         animate={{ y: [0, 8, 0] }}
                         transition={{ repeat: Infinity, duration: 4.5, ease: "easeInOut" }}
@@ -807,12 +807,12 @@ export default function App() {
                           <Code className="h-3.5 w-3.5" />
                         </div>
                         <div className="text-left">
-                          <span className="text-[10px] font-black text-slate-800 block leading-tight">Code Reasoners</span>
+                          <span className="text-[10px] font-black text-slate-800 block leading-tight">Software Engineers</span>
                           <span className="text-[8px] text-slate-400 block font-semibold">Python, Go, TS</span>
                         </div>
                       </motion.div>
 
-                      {/* SATELLITE NODE 3: Domain Specialists */}
+                      {/* SATELLITE NODE 3: Creative Designers */}
                       <motion.div 
                         animate={{ y: [0, -8, 0] }}
                         transition={{ repeat: Infinity, duration: 5, ease: "easeInOut" }}
@@ -822,12 +822,12 @@ export default function App() {
                           <GraduationCap className="h-3.5 w-3.5" />
                         </div>
                         <div className="text-left">
-                          <span className="text-[10px] font-black text-slate-800 block leading-tight">Domain Experts</span>
-                          <span className="text-[8px] text-slate-400 block font-semibold">Math, Law, Med</span>
+                          <span className="text-[10px] font-black text-slate-800 block leading-tight">Creative Designers</span>
+                          <span className="text-[8px] text-slate-400 block font-semibold">UI/UX, Branding</span>
                         </div>
                       </motion.div>
 
-                      {/* SATELLITE NODE 4: Red Teaming */}
+                      {/* SATELLITE NODE 4: Product Management */}
                       <motion.div 
                         animate={{ y: [0, 6, 0] }}
                         transition={{ repeat: Infinity, duration: 4.8, ease: "easeInOut" }}
@@ -837,8 +837,8 @@ export default function App() {
                           <Shield className="h-3.5 w-3.5" />
                         </div>
                         <div className="text-left">
-                          <span className="text-[10px] font-black text-slate-800 block leading-tight">Red Teaming</span>
-                          <span className="text-[8px] text-slate-400 block font-semibold">Safety & Alignment</span>
+                          <span className="text-[10px] font-black text-slate-800 block leading-tight">Product Managers</span>
+                          <span className="text-[8px] text-slate-400 block font-semibold">Agile & Growth</span>
                         </div>
                       </motion.div>
 
@@ -849,7 +849,7 @@ export default function App() {
                         className="absolute top-[15px] left-1/2 transform -translate-x-1/2 bg-slate-950 text-white rounded-full px-3.5 py-1.5 shadow-lg flex items-center gap-1.5 border border-slate-800"
                       >
                         <span className="h-2 w-2 rounded-full bg-emerald-400 animate-pulse" />
-                        <span className="text-[9px] uppercase font-black tracking-widest text-emerald-400">35k Global Contributors</span>
+                        <span className="text-[9px] uppercase font-black tracking-widest text-emerald-400">35k Global Freelancers</span>
                       </motion.div>
 
                     </div>
@@ -906,7 +906,7 @@ export default function App() {
               </div>
               <div className="text-left">
                 <span className="block text-xl font-black text-slate-900 leading-none">50+</span>
-                <span className="text-[10px] font-bold text-slate-400 uppercase tracking-wider block mt-1 leading-none">AI Partners</span>
+                <span className="text-[10px] font-bold text-slate-400 uppercase tracking-wider block mt-1 leading-none">Global Partners</span>
               </div>
             </div>
 
@@ -935,11 +935,11 @@ export default function App() {
             </span>
             
             <h2 className="font-display text-3xl sm:text-4xl font-black text-slate-900 tracking-tight leading-none mb-4">
-              Human intelligence powers AI progress.
+              Empowering young specialists in their careers.
             </h2>
             
             <p className="text-slate-600 text-sm mb-4 leading-relaxed">
-              From training and evaluation to research and domain expertise, our contributors help build the AI systems shaping tomorrow.
+              From software engineering and branding to content design and virtual assistance, our community delivers outstanding results for forward-thinking clients.
             </p>
 
             <button 
@@ -999,11 +999,11 @@ export default function App() {
             </span>
             
             <h2 className="font-display text-3xl sm:text-4xl font-black text-slate-900 tracking-tight leading-none mb-4">
-              Find your role in the AI economy.
+              Find your role in the digital economy.
             </h2>
             
             <p className="text-slate-600 text-sm mb-4 leading-relaxed">
-              From training frontier models to evaluating AI outputs. Every skill has a place. Remote, flexible, and open globally.
+              From software development to creative branding and operational management, there is a place for your talents. Remote, flexible, and open globally.
             </p>
 
             <button 
@@ -1151,7 +1151,7 @@ export default function App() {
             </h2>
             
             <p className="text-slate-600 text-sm leading-relaxed">
-              Whether you're a professional or a company, see exactly how Zenire AI works for you.
+              Whether you're a professional or a company, see exactly how Zenire.in works for you.
             </p>
           </div>
 
@@ -1266,7 +1266,7 @@ export default function App() {
                         Start Contributing
                       </h4>
                       <p className="text-slate-500 text-xs leading-relaxed">
-                        Once matched and onboarded, work on meaningful AI projects remotely, on your schedule, from anywhere in the world.
+                        Once matched and onboarded, work on meaningful projects remotely, on your schedule, from anywhere in the world.
                       </p>
                     </div>
                   </div>
@@ -1413,7 +1413,7 @@ export default function App() {
             </h2>
             
             <p className="text-slate-600 text-sm leading-relaxed">
-              Real experiences from professionals across the global Zenire AI network.
+              Real experiences from professionals across the global Zenire.in network.
             </p>
           </div>
 
@@ -1497,13 +1497,13 @@ export default function App() {
               <div className="flex flex-col md:flex-row md:items-end justify-between gap-4">
                 <div>
                   <span className="inline-block text-[11px] font-extrabold uppercase tracking-widest text-emerald-600 bg-emerald-50 px-2.5 py-1 rounded-md mb-3">
-                    Zenire AI Job Board
+                    Zenire.in Job Board
                   </span>
                   <h1 className="font-display text-3xl sm:text-4xl font-black text-slate-950 tracking-tight leading-none mb-3">
-                    Explore Open AI Opportunities
+                    Explore Open Career Opportunities
                   </h1>
                   <p className="text-slate-600 text-sm max-w-2xl leading-relaxed">
-                    Select from our database of active remote projects. Join our elite global contributor network training next-generation frontier models.
+                    Select from our database of active remote projects. Join our elite global talent network working on high-impact projects with leading modern companies.
                   </p>
                 </div>
                 
@@ -1741,7 +1741,7 @@ export default function App() {
               <div className="flex flex-col md:flex-row md:items-end justify-between gap-4">
                 <div>
                   <span className="inline-block text-[11px] font-extrabold uppercase tracking-widest text-emerald-600 bg-emerald-50 px-2.5 py-1 rounded-md mb-3">
-                    Zenire AI Administration
+                    Zenire.in Administration
                   </span>
                   <h1 className="font-display text-3xl sm:text-4xl font-black text-slate-950 tracking-tight leading-none mb-3">
                     Job Board Live Management
@@ -1807,7 +1807,7 @@ export default function App() {
                   <div className="space-y-0.5">
                     <span className="text-[10px] uppercase font-black tracking-wider text-emerald-600 block">Database Seeding</span>
                     <p className="text-xs text-slate-500">
-                      Empty database? Populate Firestore instantly with the 33 baseline high-fidelity AI opportunities with a single click.
+                      Empty database? Populate Firestore instantly with the 33 baseline high-fidelity career opportunities with a single click.
                     </p>
                   </div>
                   <button
@@ -2096,7 +2096,7 @@ export default function App() {
                 </div>
               </div>
               <p className="text-[11px] leading-relaxed text-slate-400">
-                Connecting GenZ professionals with the future of AI work. From dataset creation to frontier model evaluations, we empower global talent.
+                Connecting GenZ professionals with the future of freelance work. From software development to creative design, we empower global talent.
               </p>
               <div className="flex items-center gap-2 pt-2">
                 <div className="bg-[#00b67a] p-0.5 rounded-sm shrink-0">
@@ -2221,7 +2221,7 @@ export default function App() {
                   </div>
                   <div>
                     <h3 className="text-base font-black text-slate-900 leading-none">
-                      {selectedJobToApply ? "Apply for Position" : "Apply for AI Opportunities"}
+                      {selectedJobToApply ? "Apply for Position" : "Apply for Opportunities"}
                     </h3>
                     <span className="text-[10px] uppercase font-bold tracking-wider text-emerald-600 block mt-0.5">
                       Sends automatically to support@zenire.in
@@ -2267,16 +2267,16 @@ export default function App() {
 
                   {!selectedJobToApply && (
                     <div>
-                      <label className="block text-xs font-bold text-slate-700 uppercase tracking-wide mb-1">Target AI Role Interest</label>
+                      <label className="block text-xs font-bold text-slate-700 uppercase tracking-wide mb-1">Target Role Interest</label>
                       <select 
                         value={candidateForm.skills}
                         onChange={(e) => setCandidateForm({ ...candidateForm, skills: e.target.value })}
                         className="w-full border border-slate-200 rounded-xl px-4 py-3 text-xs text-slate-900 bg-slate-50 focus:bg-white focus:border-emerald-500 focus:outline-none transition"
                       >
-                        <option value="Model Training">AI Model Training & Writing</option>
-                        <option value="Quality Evaluator">AI Quality Evaluation</option>
-                        <option value="Domain Specialist">Domain Expert Trainer (Law/Medicine/etc.)</option>
-                        <option value="Code Trainer">Coding & Reasoning Benchmarking</option>
+                        <option value="Model Training">Web Development & Design</option>
+                        <option value="Quality Evaluator">Quality Assurance & Testing</option>
+                        <option value="Domain Specialist">Content Writing & Copywriting</option>
+                        <option value="Code Trainer">Backend & API Development</option>
                       </select>
                     </div>
                   )}
@@ -2429,7 +2429,7 @@ export default function App() {
                     <Building2 className="h-4.5 w-4.5 text-emerald-600" />
                   </div>
                   <div>
-                    <h3 className="text-base font-black text-slate-900 leading-none">Hire Verified AI Talent</h3>
+                    <h3 className="text-base font-black text-slate-900 leading-none">Hire Verified Talent</h3>
                     <span className="text-[10px] uppercase font-bold tracking-wider text-emerald-600 block mt-0.5">
                       Sends automatically to support@zenire.in
                     </span>
@@ -2444,7 +2444,7 @@ export default function App() {
                       required
                       value={companyForm.companyName}
                       onChange={(e) => setCompanyForm({ ...companyForm, companyName: e.target.value })}
-                      placeholder="e.g. OpenAI, Scale AI, Outlier"
+                      placeholder="e.g. Acme Corp, TechStart, Stripe"
                       className="w-full border border-slate-200 rounded-xl px-4 py-3 text-xs text-slate-900 bg-slate-50 focus:bg-white focus:border-emerald-500 focus:outline-none transition"
                     />
                   </div>
@@ -2480,10 +2480,10 @@ export default function App() {
                       onChange={(e) => setCompanyForm({ ...companyForm, needs: e.target.value })}
                       className="w-full border border-slate-200 rounded-xl px-4 py-3 text-xs text-slate-900 bg-slate-50 focus:bg-white focus:border-emerald-500 focus:outline-none transition"
                     >
-                      <option value="Data Labeling">General Annotation & Data Labeling</option>
-                      <option value="RLHF">RLHF / Model Quality Evaluation</option>
-                      <option value="Specialist">Domain Expert Trainers (Finance/Medicine/Law)</option>
-                      <option value="Code Generation">Coding & Technical Reasoners</option>
+                      <option value="Data Labeling">Frontend & UI Development</option>
+                      <option value="RLHF">QA, Testing & Maintenance</option>
+                      <option value="Specialist">Branding & Graphic Design</option>
+                      <option value="Code Generation">Backend & Full-Stack Engineering</option>
                     </select>
                   </div>
 
@@ -2492,7 +2492,7 @@ export default function App() {
                     <textarea 
                       value={companyForm.notes}
                       onChange={(e) => setCompanyForm({ ...companyForm, notes: e.target.value })}
-                      placeholder="e.g. Need 50 verified biology masters graduates for prompt evaluation..."
+                      placeholder="e.g. Need 3 senior React developers for a 3-month contract..."
                       rows={3}
                       className="w-full border border-slate-200 rounded-xl px-4 py-3 text-xs text-slate-900 bg-slate-50 focus:bg-white focus:border-emerald-500 focus:outline-none transition resize-none"
                     />
@@ -2558,17 +2558,17 @@ export default function App() {
                     <Sparkles className="h-4.5 w-4.5 text-emerald-600" />
                   </div>
                   <div>
-                    <h3 className="text-base font-black text-slate-900 leading-none">About Zenire AI</h3>
+                    <h3 className="text-base font-black text-slate-900 leading-none">About Zenire.in</h3>
                     <span className="text-[10px] uppercase font-bold tracking-wider text-slate-400">Our Mission</span>
                   </div>
                 </div>
 
                 <div className="space-y-4 text-xs text-slate-600 leading-relaxed">
                   <p>
-                    <span className="font-extrabold text-slate-900">Zenire AI</span> is a premier workspace coordinator matching professional freelancers, domain specialists, and high-performance annotators with the world's leading AI organizations.
+                    <span className="font-extrabold text-slate-900">Zenire.in</span> is a premier workspace coordinator matching professional freelancers, designers, and developers with forward-thinking companies around the world.
                   </p>
                   <p>
-                    With over <span className="font-extrabold text-slate-900">35,000 onboarded contributors</span>, we specialize in supplying high-fidelity, high-density human feedback (RLHF), safety red-teaming, multilingual localization, and domain-specific validation across medical, legal, and engineering verticals.
+                    With over <span className="font-extrabold text-slate-900">35,000 onboarded specialists</span>, we facilitate seamless matchmaking, contracting, and support across software, creative, marketing, and operational verticals.
                   </p>
                   <p>
                     Our model is fully global, asynchronous, and optimized for flexible pacing—enabling you to share your knowledge on your own timeline, from anywhere in the world.
