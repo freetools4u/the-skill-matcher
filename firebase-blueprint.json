@@ -1,0 +1,59 @@
+{
+  "entities": {
+    "job": {
+      "title": "Job Position",
+      "description": "An active open remote job listing at Zenire AI",
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "description": "The unique ID of the job"
+        },
+        "title": {
+          "type": "string",
+          "description": "The job title"
+        },
+        "date": {
+          "type": "string",
+          "description": "The posting date, formatted as 'MMM DD, YYYY'"
+        },
+        "category": {
+          "type": "string",
+          "enum": ["Model Training", "Code Trainer", "Quality Evaluator", "Domain Specialist"],
+          "description": "The job category"
+        },
+        "skills": {
+          "type": "array",
+          "description": "List of required skills"
+        },
+        "experience": {
+          "type": "string",
+          "description": "The required experience"
+        },
+        "pay": {
+          "type": "string",
+          "description": "The pay rate"
+        },
+        "description": {
+          "type": "string",
+          "description": "The description of the role"
+        },
+        "scopeOfWork": {
+          "type": "array",
+          "description": "The responsibilities and tasks"
+        },
+        "preferredQualifications": {
+          "type": "array",
+          "description": "The preferred qualifications"
+        }
+      },
+      "required": ["title", "category", "skills", "pay", "description"]
+    }
+  },
+  "firestore": {
+    "/jobs/{jobId}": {
+      "schema": "job",
+      "description": "The collection of active job listings"
+    }
+  }
+}

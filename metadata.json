@@ -1,0 +1,8 @@
+{
+  "name": "Zenire AI theme",
+  "description": "Action-driven career coaching \u0026 resume optimization to help you cross every hurdle in your job search.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
